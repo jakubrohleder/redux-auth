@@ -34,6 +34,12 @@ export function configure(endpoint={}, settings={}) {
       return Promise.resolve({blank: true});
     }
 
+    console.log('-----=======------');
+    console.log('-----=======------');
+    console.log('authenticateStart');
+    console.log('-----=======------');
+    console.log('-----=======------');
+
     dispatch(authenticateStart());
 
     let promise,
